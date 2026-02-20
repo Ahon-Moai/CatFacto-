@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+}
+.header {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.inputfield-div {
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.inputfield-div {
+  background: rgba(38, 37, 37, 0.2); /* semi-transparent white */
+  backdrop-filter: blur(10px); /* blur behind the card */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  padding: 20px;
+  color: white;
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.inputfield-div:hover {
+  transform: translateY(-5px);
+}
+.inputfield-div-header {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
+}
+.wakeup-time {
+  margin-top: 3rem;
+}
+.questions {
+}
+.question-inputfield {
+  margin-top: 0.5rem;
+  background: none;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 30px;
+  border: 1px solid #999999;
+  padding-left: 1rem;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.button button {
+  width: 100%;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  background: rgb(255, 255, 255);
+  font-weight: 500;
+  border: none;
+  border-radius: 24px;
+}
+.learn {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  text-decoration: underline;
+  padding-bottom: 1rem;
+}
+.score-text-main {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.score-text {
+  text-decoration: underline;
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="logo">Hey There!👋</h1>
+      <p class="productivity-para">Check your productivity score.</p>
+    </div>
+    <div id="inputfield-div" class="inputfield-div">
+      <p class="inputfield-div-header">
+        Answer this questions below to get your producitivity score.
+      </p>
+      <div class="wakeup-time">
+        <p class="question">When did your woke up today?</p>
+        <input
+          class="question-inputfield"
+          placeholder="eg 5pm, 2am..."
+          type="text"
+          name=""
+          id="wakeup-time"
+        />
+      </div>
+      <div class="wakeup-time">
+        <p class="question">How many hours you studied today?</p>
+        <input
+          class="question-inputfield"
+          placeholder="eg 4, 3....."
+          type="text"
+          name=""
+          id="study-time"
+        />
+      </div>
+      <div class="wakeup-time">
+        <p class="question">
+          How many hours you invested today to learn a new skill?
+        </p>
+        <input
+          class="question-inputfield"
+          placeholder="eg 5pm, 2am..."
+          type="text"
+          name=""
+          id="skill-time"
+        />
+      </div>
+      <div class="wakeup-time">
+        <p class="question">What was your screen time today?*Non Productive*</p>
+        <input
+          class="question-inputfield"
+          placeholder="eg 4, 5hours"
+          type="text"
+          name=""
+          id="screen-time"
+        />
+      </div>
+      <div class="wakeup-time">
+        <p class="question">Did your exercised today?</p>
+        <input
+          class="question-inputfield"
+          placeholder="Yes/No"
+          type="text"
+          name=""
+          id="exercise"
+        />
+      </div>
+      <div class="wakeup-time">
+        <p class="question">How many hours you slept today?</p>
+        <input
+          class="question-inputfield"
+          placeholder="eg 6/8hours"
+          type="text"
+          name=""
+          id="sleep-time"
+        />
+      </div>
+      <div class="button">
+        <button id="submit-btn" class="submit">Submit</button>
+      </div>
+    </div>
+    <p class="score-text-main">
+      Your producitivity score is :
+      <span id="score-text" class="score-text"></span>
+    </p>
+    <p class="learn">Learn How This System Works...</p>
+  </body>
+  <script src="./script.js"></script>
+</html>
