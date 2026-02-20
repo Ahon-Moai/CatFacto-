@@ -26,7 +26,7 @@ sub_btn.addEventListener("click", () => {
     total_score += 20;
   }
   let exerciseTime = exercise.value;
-  if (exerciseTime === "yes") {
+  if (exerciseTime === "Yes") {
     total_score += 10;
   }
   let sleepTime = sleep_time.value;
