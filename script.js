@@ -38,5 +38,5 @@ sub_btn.addEventListener("click", () => {
 });
 let closeModal = () => {
   inputfield_div.style.display = "none";
-  score_text.innerText = total_score;
+  score_text.innerText = total_score + "" + "(Well Done)";
 };
